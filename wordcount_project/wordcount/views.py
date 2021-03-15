@@ -5,6 +5,8 @@ import operator
 
 def homepage(request):
     return render(request,'home.html')
+def about(request):
+    return render(request,'about.html')
 
 def eggs(request):
     return HttpResponse("<h1>Eggs are great!!</h1>")
